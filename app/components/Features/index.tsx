@@ -10,18 +10,18 @@ interface featuresdata {
 const featuresdata: featuresdata[] = [
     {
         imgSrc: '/images/Features/featureOne.svg',
-        heading: 'Secure storage',
-        subheading: 'We lake data security and privacy very seriously',
+        heading: 'Memory-Aware AI',
+        subheading: 'Long-term and short-term memory layers',
     },
     {
-        imgSrc: '/images/Features/featureTwo.svg',
-        heading: 'Free to use',
-        subheading: 'Top notch crypto portfolio traking at no cost',
+        imgSrc: '/images/Features/featureOne.svg',
+        heading: 'Modular Architecture',
+        subheading: 'Separate folders for embeddings,ETL,extract,transform,load,etc.',
     },
     {
-        imgSrc: '/images/Features/featureThree.svg',
-        heading: 'Real-time price data',
-        subheading: 'Updating 24/7 using price data form the biggest exchanges',
+        imgSrc: '/images/Features/featureOne.svg',
+        heading: 'Agentic AI',
+        subheading: 'Build agents with task orchestration and autonomy',
     },
 ]
 
