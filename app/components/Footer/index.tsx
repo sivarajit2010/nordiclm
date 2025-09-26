@@ -17,7 +17,7 @@ const products: ProductType[] = [
   {
     id: 1,
     section: "Useful Links",
-    link: ['Home', /*'Exchange',*/ 'Features', 'FAQ'],
+    link: ['Home', 'Exchange', 'Features', 'FAQ'],
   }
 ]
 
@@ -38,7 +38,7 @@ const footer = () => {
 
           {/* COLUMN-1 */}
 
-          {/* <div className='col-span-6'>
+          <div className='col-span-6'>
             <img
               className="block h-12 w-20px mb-4"
               src={'/images/Logo/logo.svg'}
@@ -50,11 +50,11 @@ const footer = () => {
                 <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' /></Link>
               ))}
             </div>
-          </div> */}
+          </div>
 
           {/* CLOUMN-2/3 */}
 
-          {/* {products.map((product) => (
+          {products.map((product) => (
             <div key={product.id} className="group relative col-span-2">
               <p className="text-white text-xl font-medium mb-9">{product.section}</p>
               <ul>
@@ -65,11 +65,11 @@ const footer = () => {
                 ))}
               </ul>
             </div>
-          ))} */}
+          ))}
 
-          <div className="col-span-12">
+          <div className="col-span-4">
             <h3 className="text-white text-xl font-medium mb-9">Contact Us</h3>
-            {/* <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />(406) 555-012</h4> */}
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />(406) 555-012</h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />tim.jennings@example.com</h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Elgin St. Celina, Delaware 10299</h4>
           </div>
@@ -79,9 +79,9 @@ const footer = () => {
 
       {/* All Rights Reserved */}
 
-      {/* <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by NordicLM</h3>
-      </div> */}
+      <div className='py-8 px-4 border-t border-t-lightblue'>
+        <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h3>
+      </div>
 
     </div>
   )
