@@ -10,24 +10,24 @@ interface featuresdata {
 const featuresdata: featuresdata[] = [
     {
         imgSrc: '/images/Features/featureOne.svg',
-        heading: 'Memory-Aware AI',
-        subheading: 'Long-term and short-term memory layers',
+        heading: 'Secure storage',
+        subheading: 'We lake data security and privacy very seriously',
     },
     {
-        imgSrc: '/images/Features/featureOne.svg',
-        heading: 'Modular Architecture',
-        subheading: 'Separate folders for embeddings,ETL,extract,transform,load etc.',
+        imgSrc: '/images/Features/featureTwo.svg',
+        heading: 'Free to use',
+        subheading: 'Top notch crypto portfolio traking at no cost',
     },
     {
-        imgSrc: '/images/Features/featureOne.svg',
-        heading: 'Agentic AI',
-        subheading: 'Build agents with task orchestration and autonomy',
+        imgSrc: '/images/Features/featureThree.svg',
+        heading: 'Real-time price data',
+        subheading: 'Updating 24/7 using price data form the biggest exchanges',
     },
 ]
 
 const Features = () => {
     return (
-        <div className="mx-auto max-w-7xl my-0 md:m y-40 p t-36 px-6 relative" id="features-section">
+        <div className="mx-auto max-w-7xl my-0 md:my-40 pt-36 px-6 relative" id="features-section">
             <div className="radial-bg hidden lg:block"></div>
             <div className="grid lg:grid-cols-2 gap-x-4 gap-y-4">
                 {/* Column-1 */}

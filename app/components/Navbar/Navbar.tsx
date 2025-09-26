@@ -40,13 +40,11 @@ const Navbar = () => {
                                 <img
                                     className="block h-10 w-20px lg:hidden"
                                     src={'/images/Logo/logo.svg'}
-                                    //src={'/images/Logo/NordicLM-logo.png'}
                                     alt="Crypto-Logo"
                                 />
                                 <img
                                     className="hidden h-48px w-48px lg:block"
                                     src={'/images/Logo/logo.svg'}
-                                    //src={'/images/Logo/NordicLM-logo.png'}
                                     alt="Crypto-Logo"
                                 />
                             </div>
