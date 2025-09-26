@@ -14,7 +14,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
+    //{ name: 'Exchange', href: '#exchange-section', current: false },
     { name: 'Features', href: '#features-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
 ]
@@ -69,7 +69,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Connect Wallet</button>
+                            {/* <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Connect Wallet</button> */}
                             {/* <Contactusform /> */}
                         </div>
 
