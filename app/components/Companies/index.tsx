@@ -72,7 +72,7 @@ export default class MultipleItems extends Component {
                 }
             ]
         };
-
+        return ('')
         // return (
 
         //     <div className='text-center bg-lightpink' >
