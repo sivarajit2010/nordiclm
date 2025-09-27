@@ -16,7 +16,7 @@ const featuresdata: featuresdata[] = [
     {
         imgSrc: '/images/Features/featureOne.svg',
         heading: 'Modular Architecture',
-        subheading: 'Separate folders for embeddings,ETL,extract,transform,load,etc.',
+        subheading: 'Separate folders for embeddings,ETL,extract, transform,load,etc.',
     },
     {
         imgSrc: '/images/Features/featureOne.svg',

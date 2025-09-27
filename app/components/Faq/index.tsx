@@ -10,17 +10,21 @@ interface faqdata {
 
 const faqdata: faqdata[] = [
     {
-        heading: "1. What is cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "1. What is NOrdicLM?",
+        subheading: 'NordicLM is an open-source project designed to help developers build intelligent, modular AI systems. With both short-term and long-term memory, agentic AI concepts, and built-in support for ETL and embeddings, NordicLM makes it simple to experiment, extend, and scale AI applications.'
     },
-    {
-        heading: "2. Can cryptocurrency be converted to cash?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
-    },
-    {
-        heading: "3. How long should you hold cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
-    },
+    // {
+    //     heading: "1. What is cryptocurrency?",
+    //     subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+    // },
+    // {
+    //     heading: "2. Can cryptocurrency be converted to cash?",
+    //     subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+    // },
+    // {
+    //     heading: "3. How long should you hold cryptocurrency?",
+    //     subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+    // },
 
 ]
 
@@ -28,7 +32,7 @@ const Faq = () => {
     return (
         <div className="my-20 px-6" id="faq-section">
             <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">Frequently Asked And Question</h3>
-            <p className="text-center lg:text-lg font-normal text-bluish">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br /> been the industry standard dummy text ever since the 1500s,</p>
+            {/* <p className="text-center lg:text-lg font-normal text-bluish">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br /> been the industry standard dummy text ever since the 1500s,</p> */}
 
             <div className="mx-auto max-w-7xl">
                 <div className="grid lg:grid-cols-2">
