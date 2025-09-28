@@ -13,6 +13,31 @@ const faqdata: faqdata[] = [
         heading: "1. What is NOrdicLM?",
         subheading: 'NordicLM is an open-source project designed to help developers build intelligent, modular AI systems. With both short-term and long-term memory, agentic AI concepts, and built-in support for ETL and embeddings, NordicLM makes it simple to experiment, extend, and scale AI applications.'
     },
+    {
+        heading: "2.Who can benefit from NordicLM’s solutions?",
+        subheading: 'Our solutions are designed for startups, enterprises, and research organizations across industries like finance, healthcare, retail, manufacturing, and technology.'
+    },
+    {
+        heading: "3.Do you offer tailored AI solutions?",
+        subheading: 'Yes. We work closely with clients to design custom AI systems that meet specific needs, instead of one-size-fits-all products.'
+    },
+    {
+        heading: "4.What technologies do you use?",
+        subheading: 'We leverage state-of-the-art AI frameworks such as TensorFlow, PyTorch, Hugging Face, OpenAI APIs, and cloud platforms (AWS, Azure, GCP) for scalable deployments.'
+    },
+    {
+        heading: "5.How secure are NordicLM’s AI solutions?",
+        subheading: 'Security and privacy are top priorities. We follow industry best practices, including data encryption, compliance with GDPR, HIPAA (where applicable), and role-based access control.'
+    },
+    {
+        heading: "6.How does NordicLM handle client data?",
+        subheading: 'All client data is processed under strict confidentiality. We offer on-premise and cloud deployment options depending on your data governance requirements.'
+    },
+    {
+        heading: "7.Do you provide support after deployment?",
+        subheading: 'Yes. We offer maintenance, updates, and monitoring services to ensure your AI system stays accurate and efficient over time.'
+    },
+    
     // {
     //     heading: "1. What is cryptocurrency?",
     //     subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
