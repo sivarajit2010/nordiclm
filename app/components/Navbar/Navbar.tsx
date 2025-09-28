@@ -41,13 +41,13 @@ const Navbar = () => {
                                     className="block h-10 w-20px lg:hidden"
                                     src={'/images/Logo/nordiclm small.png'}
                                     style={{   height: "115px" }} 
-                                    alt="Crypto-Logo"
+                                    alt="NordicLM-Logo"
                                 />
                                 <img
                                     className="hidden h-48px w-48px lg:block"
                                     src={'/images/Logo/nordiclm small.png'}
                                     style={{   height: "115px" }}
-                                    alt="Crypto-Logo"
+                                    alt="NordicLM-Logo"
                                 />
                             </div>
 
