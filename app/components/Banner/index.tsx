@@ -29,11 +29,11 @@ const Banner = () => {
                             </div> */}
                         </div>
 
-                        <div className='col-span-5 lg:-m-48'>
+                        <div className='col-span-5'>
                             <div className='arrowThree'></div>
                             <div className='arrowFour'></div>
                             <div className='arrowFive'></div>
-                            <Image src="/images/Banner/banner.png" alt="nothing" width={1013} height={760} />
+                            <Image src="/images/Banner/ai image.png" alt="nothing" width={1013} height={760} />
                             <div className='arrowSix'></div>
                             <div className='arrowSeven'></div>
                             <div className='arrowEight'></div>
